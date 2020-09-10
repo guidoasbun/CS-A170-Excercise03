@@ -23,8 +23,8 @@ public class MathSkills
         
         System.out.println("Check this out:");
         System.out.println(numberOne + " + " + numberTwo + " - " + numberThree + " = " + (numberOne+numberTwo-numberThree));
-        
-        System.out.println("Numbers I entered" + numberOne + numberTwo + numberThree);
-        
+        System.out.println(numberOne + " - " + numberTwo + " * " + numberThree + " = " + (numberOne-numberTwo*numberThree));
+        System.out.println("(" + numberOne + " - " + numberTwo + ")" + " * " + numberThree + " = " + ((numberOne-numberTwo)*numberThree));
+        System.out.println(numberOne + " squared is " + Math.round(Math.pow(numberOne, 2)));
     }
 }

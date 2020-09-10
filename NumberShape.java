@@ -1,33 +1,26 @@
+/* 
+*   Guido Asbun
+*   Jaeseok Heo
+*   CS A170 
+*   09-September-2020     
+* 
+*   Exercise 03
+*/ 
 
-/**
- * Write a description of class NumberShape here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+import java.util.Scanner;
+
 public class NumberShape
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class NumberShape
-     */
-    public NumberShape()
+    public static void main(String [] args)
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Enter a single-digit number: ");
+        int inputNumber = input.nextInt();
+        
+        System.out.println("   " + inputNumber);
+        System.out.println("  " + inputNumber + " " +inputNumber);
+        System.out.println(" " + inputNumber + inputNumber + " " + inputNumber + inputNumber);
+        System.out.println("" + inputNumber + inputNumber + " " + inputNumber + " " + inputNumber + inputNumber);
     }
 }
